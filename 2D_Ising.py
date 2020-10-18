@@ -1,6 +1,9 @@
 """
 Implementation of 2D square lattice Ising model
+Metropolis algorithm
+
 Author : Jiwon Choi
+Reference : Monte Carlo Methods in Statistical Physics, M. E. J. Newman and G. T. Berkema, Oxford University Press, 1999
 """
 
 import numpy as np
@@ -93,7 +96,7 @@ class Ising2D():
             proceed += 1
             if proceed % log == 0:
                 print('    Steps:{}, M:{}, E:{}'.format(proceed,self.M,self.E))
-        print('\nSimulation ended.')
+        print('\nSimulation .')
     
     def savedata(self):
         filename = '2D_Ising_N{}_J{}_T{}_steps{}.dat'.format(self.N,self.J,self.T,self.steps)
