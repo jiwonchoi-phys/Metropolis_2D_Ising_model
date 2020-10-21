@@ -1,9 +1,6 @@
 """
 Implementation of 2D square lattice Ising model
-Metropolis algorithm
-
 Author : Jiwon Choi
-Reference : Monte Carlo Methods in Statistical Physics, M. E. J. Newman and G. T. Berkema, Oxford University Press, 1999
 """
 
 import numpy as np
@@ -11,13 +8,15 @@ import matplotlib.pyplot as plt
 
 
 class Ising2D():
-    def __init__(self,N,J,T,steps):
+    def __init__(self,N,J,T,iteration,init_grid=None):
         self.N = N
         self.J = J
         self.T = T
-        self.steps = steps
+        self.iteration = iteration
+        self.init_grid = init_grid
         self.grid = self.make_grid()
-    
+        
+        
         self.M = self.total_M()
         self.E = self.total_E()
         self.M_list = []
@@ -25,7 +24,6 @@ class Ising2D():
         
     def make_grid(self):
         return np.random.choice([1,-1],size=[self.N,self.N])
-
     
     def return_grid(self):
         return self.grid
@@ -84,24 +82,27 @@ class Ising2D():
     
     
     def run(self,log=None):
+        self.M = self.total_M()
+        self.E = self.total_E()
+        
         proceed=0
         print("\n\nINPUT PARAMETER")
-        print('(N={}, J={}, T={}, steps={})'.format(self.N,self.J,self.T,self.steps))
+        print('(N={}, J={}, T={:3.2f}, Iteration={})'.format(self.N,self.J,self.T,self.iteration))
         print('\nSimulation started.\n')
-        for i in range(self.steps):
+        for i in range(self.iteration):
             for j in range(self.N**2):
                 self.step()
             self.M_list.append(self.M)
             self.E_list.append(self.E)
             proceed += 1
             if proceed % log == 0:
-                print('    Steps:{}, M:{}, E:{}'.format(proceed,self.M,self.E))
-        print('\nSimulation .')
+                print('    Iterations:{}, M:{}, E:{}'.format(proceed,self.M,self.E))
+        print('\nSimulation completed.')
     
     def savedata(self):
-        filename = '2D_Ising_N{}_J{}_T{}_steps{}.dat'.format(self.N,self.J,self.T,self.steps)
+        filename = '2D_Ising_N{}_J{}_T{:3.2f}_iter{}.dat'.format(self.N,self.J,self.T,self.iteration)
         header = '2D Ising model simulation with metropolis algorithm \n'+\
-            '(N={}, J={}, T={}, steps={})\n'.format(self.N,self.J,self.T,len(self.M_list))+\
+                '(N={}, J={}, T={:3.2f}, iter={})\n'.format(self.N,self.J,self.T,self.iteration)+\
             'steps    M      T'
         x = np.arange(len(self.M_list))
         data = np.array([x, self.M_list, self.E_list]).transpose()
@@ -121,7 +122,7 @@ class Ising2D():
         ax1.legend(loc="upper right")
         
         ax2.plot(x,E,label='T={}'.format(self.T),lw=0.5,c='black')
-        ax2.set_xlabel("steps")
+        ax2.set_xlabel("iterations")
         ax2.set_ylabel("$E_{tot}/N^2$")
         ax2.legend(loc="upper right")
         
@@ -130,17 +131,17 @@ class Ising2D():
         plt.show()
         
         if save == True:
-            filename = '2D_Ising_N{}_J{}_T{}_steps{}.png'.format(self.N,self.J,self.T,self.steps)
+            filename = '2D_Ising_N{}_J{}_T{}_iter{:3.2f}.png'.format(self.N,self.J,self.T,self.iteration)
             plt.savefig(filename, dpi=350)
             
-
+'''
 if __name__ == "__main__":
     N = int(input("# Input N(for N*N square lattice): "))
     J = float(input("# Input interaction constant J: "))
     T = float(input("# Input temperature T: "))
-    steps = int(input("# Input number of simulation of each site: "))
+    iterations = int(input("# Input number of simulation of each site: "))
     
-    model = Ising2D(N,J,T,steps)
+    model = Ising2D(N,J,T,iterations)
     grid_i = model.return_grid()
     
     model.run(log=100)
@@ -148,6 +149,48 @@ if __name__ == "__main__":
     model.plot()
     
     grid_f = model.return_grid()
+'''
+if __name__ == "__main__":
+    T = np.arange(1.3,3.2,0.05)
     
+    iteration = [5000 for t in T]
+    
+    M = []
+    E = []
+    data = []
+    out_grid = None
+    
+    for i,t in enumerate(T):
+        model = Ising2D(50,1,t,iteration[i])
+        
+        if i == 0:
+            model.grid = np.random.choice([1,1],size=[model.N,model.N])
+        else:
+            model.grid = out_grid
+            
+        
+        model.run(log=500)
+        model.savedata()
+        
+        out_grid = model.grid
+        
+        M_avg = np.average(model.M_list[-500:])
+        E_avg = np.average(model.E_list[-500:])
+        M.append(M_avg)
+        E.append(E_avg)
+        
+        
+        print("\n Equilibrium magnetization : {}".format(M_avg))
+        print(" Equilibrium enregy : {}".format(E_avg))
+        
+    for i in range(len(T)):
+        data.append([T[i],M[i],E[i]])
+    
+    plt.scatter(T,M)
+    np.savetxt('magnetization.dat',data)
+      
+    
+    
+
     
     
