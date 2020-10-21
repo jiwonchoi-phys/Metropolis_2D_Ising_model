@@ -1,0 +1,834 @@
+INPUT PARAMETER
+(N=50, J=1, T=1.30, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2488, E:-9960
+    Iterations:1000, M:2492, E:-9972
+    Iterations:1500, M:2488, E:-9956
+    Iterations:2000, M:2492, E:-9972
+    Iterations:2500, M:2482, E:-9932
+    Iterations:3000, M:2498, E:-9992
+    Iterations:3500, M:2488, E:-9956
+    Iterations:4000, M:2480, E:-9920
+    Iterations:4500, M:2480, E:-9928
+    Iterations:5000, M:2488, E:-9956
+
+Simulation completed.
+
+ Equilibrium magnetization : 2487.416
+ Equilibrium enregy : -9952.36
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.35, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2498, E:-9948
+    Iterations:1000, M:2494, E:-9932
+    Iterations:1500, M:2478, E:-9872
+    Iterations:2000, M:2488, E:-9912
+    Iterations:2500, M:2482, E:-9888
+    Iterations:3000, M:2482, E:-9888
+    Iterations:3500, M:2490, E:-9920
+    Iterations:4000, M:2486, E:-9900
+    Iterations:4500, M:2484, E:-9892
+    Iterations:5000, M:2470, E:-9868
+
+Simulation completed.
+
+ Equilibrium magnetization : 2478.032
+ Equilibrium enregy : -9883.056
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.40, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2486, E:-9856
+    Iterations:1000, M:2482, E:-9840
+    Iterations:1500, M:2468, E:-9796
+    Iterations:2000, M:2488, E:-9864
+    Iterations:2500, M:2484, E:-9848
+    Iterations:3000, M:2478, E:-9824
+    Iterations:3500, M:2484, E:-9848
+    Iterations:4000, M:2488, E:-9864
+    Iterations:4500, M:2490, E:-9876
+    Iterations:5000, M:2482, E:-9844
+
+Simulation completed.
+
+ Equilibrium magnetization : 2478.296
+ Equilibrium enregy : -9831.816
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.45, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2482, E:-9860
+    Iterations:1000, M:2490, E:-9896
+    Iterations:1500, M:2482, E:-9868
+    Iterations:2000, M:2454, E:-9756
+    Iterations:2500, M:2466, E:-9812
+    Iterations:3000, M:2458, E:-9772
+    Iterations:3500, M:2482, E:-9860
+    Iterations:4000, M:2468, E:-9808
+    Iterations:4500, M:2486, E:-9876
+    Iterations:5000, M:2486, E:-9876
+
+Simulation completed.
+
+ Equilibrium magnetization : 2473.396
+ Equilibrium enregy : -9833.592
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.50, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2478, E:-9860
+    Iterations:1000, M:2468, E:-9824
+    Iterations:1500, M:2460, E:-9800
+    Iterations:2000, M:2474, E:-9852
+    Iterations:2500, M:2464, E:-9812
+    Iterations:3000, M:2474, E:-9840
+    Iterations:3500, M:2482, E:-9872
+    Iterations:4000, M:2464, E:-9824
+    Iterations:4500, M:2466, E:-9820
+    Iterations:5000, M:2466, E:-9820
+
+Simulation completed.
+
+ Equilibrium magnetization : 2467.548
+ Equilibrium enregy : -9823.888
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.55, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2462, E:-9740
+    Iterations:1000, M:2440, E:-9692
+    Iterations:1500, M:2458, E:-9736
+    Iterations:2000, M:2438, E:-9660
+    Iterations:2500, M:2448, E:-9688
+    Iterations:3000, M:2456, E:-9712
+    Iterations:3500, M:2464, E:-9736
+    Iterations:4000, M:2466, E:-9752
+    Iterations:4500, M:2462, E:-9736
+    Iterations:5000, M:2440, E:-9680
+
+Simulation completed.
+
+ Equilibrium magnetization : 2457.908
+ Equilibrium enregy : -9726.832
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.60, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2452, E:-9636
+    Iterations:1000, M:2474, E:-9704
+    Iterations:1500, M:2464, E:-9672
+    Iterations:2000, M:2458, E:-9648
+    Iterations:2500, M:2456, E:-9664
+    Iterations:3000, M:2472, E:-9692
+    Iterations:3500, M:2412, E:-9516
+    Iterations:4000, M:2452, E:-9628
+    Iterations:4500, M:2448, E:-9624
+    Iterations:5000, M:2456, E:-9652
+
+Simulation completed.
+
+ Equilibrium magnetization : 2450.824
+ Equilibrium enregy : -9628.488
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.65, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2432, E:-9604
+    Iterations:1000, M:2466, E:-9712
+    Iterations:1500, M:2418, E:-9568
+    Iterations:2000, M:2444, E:-9644
+    Iterations:2500, M:2436, E:-9616
+    Iterations:3000, M:2440, E:-9644
+    Iterations:3500, M:2438, E:-9612
+    Iterations:4000, M:2468, E:-9724
+    Iterations:4500, M:2418, E:-9584
+    Iterations:5000, M:2444, E:-9628
+
+Simulation completed.
+
+ Equilibrium magnetization : 2438.468
+ Equilibrium enregy : -9635.68
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.70, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2440, E:-9560
+    Iterations:1000, M:2436, E:-9548
+    Iterations:1500, M:2438, E:-9552
+    Iterations:2000, M:2410, E:-9480
+    Iterations:2500, M:2434, E:-9524
+    Iterations:3000, M:2440, E:-9572
+    Iterations:3500, M:2400, E:-9456
+    Iterations:4000, M:2426, E:-9504
+    Iterations:4500, M:2428, E:-9528
+    Iterations:5000, M:2412, E:-9488
+
+Simulation completed.
+
+ Equilibrium magnetization : 2430.692
+ Equilibrium enregy : -9536.92
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.75, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2376, E:-9292
+    Iterations:1000, M:2402, E:-9356
+    Iterations:1500, M:2414, E:-9428
+    Iterations:2000, M:2442, E:-9488
+    Iterations:2500, M:2440, E:-9484
+    Iterations:3000, M:2412, E:-9416
+    Iterations:3500, M:2408, E:-9400
+    Iterations:4000, M:2410, E:-9424
+    Iterations:4500, M:2392, E:-9340
+    Iterations:5000, M:2422, E:-9428
+
+Simulation completed.
+
+ Equilibrium magnetization : 2415.7
+ Equilibrium enregy : -9417.344
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.80, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2404, E:-9428
+    Iterations:1000, M:2344, E:-9308
+    Iterations:1500, M:2344, E:-9232
+    Iterations:2000, M:2416, E:-9456
+    Iterations:2500, M:2394, E:-9364
+    Iterations:3000, M:2386, E:-9348
+    Iterations:3500, M:2400, E:-9352
+    Iterations:4000, M:2416, E:-9424
+    Iterations:4500, M:2382, E:-9328
+    Iterations:5000, M:2378, E:-9336
+
+Simulation completed.
+
+ Equilibrium magnetization : 2388.432
+ Equilibrium enregy : -9362.384
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.85, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2394, E:-9280
+    Iterations:1000, M:2322, E:-9068
+    Iterations:1500, M:2380, E:-9276
+    Iterations:2000, M:2362, E:-9148
+    Iterations:2500, M:2308, E:-9084
+    Iterations:3000, M:2404, E:-9292
+    Iterations:3500, M:2340, E:-9116
+    Iterations:4000, M:2338, E:-9076
+    Iterations:4500, M:2346, E:-9172
+    Iterations:5000, M:2336, E:-9124
+
+Simulation completed.
+
+ Equilibrium magnetization : 2359.224
+ Equilibrium enregy : -9189.64
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.90, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2346, E:-9028
+    Iterations:1000, M:2342, E:-9020
+    Iterations:1500, M:2380, E:-9140
+    Iterations:2000, M:2342, E:-9008
+    Iterations:2500, M:2376, E:-9088
+    Iterations:3000, M:2386, E:-9116
+    Iterations:3500, M:2336, E:-9072
+    Iterations:4000, M:2290, E:-8968
+    Iterations:4500, M:2324, E:-9004
+    Iterations:5000, M:2362, E:-9064
+
+Simulation completed.
+
+ Equilibrium magnetization : 2346.828
+ Equilibrium enregy : -9040.848
+
+
+INPUT PARAMETER
+(N=50, J=1, T=1.95, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2350, E:-9056
+    Iterations:1000, M:2316, E:-8996
+    Iterations:1500, M:2308, E:-9008
+    Iterations:2000, M:2318, E:-9004
+    Iterations:2500, M:2288, E:-8936
+    Iterations:3000, M:2324, E:-9040
+    Iterations:3500, M:2308, E:-8964
+    Iterations:4000, M:2276, E:-8928
+    Iterations:4500, M:2332, E:-9004
+    Iterations:5000, M:2246, E:-8876
+
+Simulation completed.
+
+ Equilibrium magnetization : 2311.076
+ Equilibrium enregy : -8993.64
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.00, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2332, E:-8792
+    Iterations:1000, M:2300, E:-8756
+    Iterations:1500, M:2228, E:-8652
+    Iterations:2000, M:2316, E:-8744
+    Iterations:2500, M:2128, E:-8644
+    Iterations:3000, M:2288, E:-8712
+    Iterations:3500, M:2296, E:-8716
+    Iterations:4000, M:2348, E:-8820
+    Iterations:4500, M:2258, E:-8676
+    Iterations:5000, M:2284, E:-8664
+
+Simulation completed.
+
+ Equilibrium magnetization : 2275.576
+ Equilibrium enregy : -8682.792
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.05, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2252, E:-8668
+    Iterations:1000, M:2288, E:-8672
+    Iterations:1500, M:2310, E:-8736
+    Iterations:2000, M:2130, E:-8488
+    Iterations:2500, M:2262, E:-8584
+    Iterations:3000, M:2280, E:-8640
+    Iterations:3500, M:2254, E:-8628
+    Iterations:4000, M:2250, E:-8660
+    Iterations:4500, M:2106, E:-8648
+    Iterations:5000, M:2246, E:-8708
+
+Simulation completed.
+
+ Equilibrium magnetization : 2177.884
+ Equilibrium enregy : -8578.936
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.10, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2168, E:-8576
+    Iterations:1000, M:2146, E:-8476
+    Iterations:1500, M:2150, E:-8440
+    Iterations:2000, M:2092, E:-8416
+    Iterations:2500, M:2194, E:-8584
+    Iterations:3000, M:2120, E:-8468
+    Iterations:3500, M:2060, E:-8328
+    Iterations:4000, M:2242, E:-8624
+    Iterations:4500, M:2124, E:-8472
+    Iterations:5000, M:2160, E:-8456
+
+Simulation completed.
+
+ Equilibrium magnetization : 2191.376
+ Equilibrium enregy : -8540.088
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.15, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2222, E:-8224
+    Iterations:1000, M:2166, E:-8312
+    Iterations:1500, M:2124, E:-8116
+    Iterations:2000, M:2174, E:-8232
+    Iterations:2500, M:2196, E:-8204
+    Iterations:3000, M:2034, E:-8072
+    Iterations:3500, M:2110, E:-8072
+    Iterations:4000, M:2158, E:-8172
+    Iterations:4500, M:2220, E:-8264
+    Iterations:5000, M:2192, E:-8208
+
+Simulation completed.
+
+ Equilibrium magnetization : 2161.56
+ Equilibrium enregy : -8183.848
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.20, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:2176, E:-8120
+    Iterations:1000, M:1980, E:-7940
+    Iterations:1500, M:1996, E:-7884
+    Iterations:2000, M:2100, E:-8112
+    Iterations:2500, M:2066, E:-7988
+    Iterations:3000, M:2106, E:-8124
+    Iterations:3500, M:1814, E:-7808
+    Iterations:4000, M:1802, E:-7980
+    Iterations:4500, M:2000, E:-8040
+    Iterations:5000, M:1918, E:-7856
+
+Simulation completed.
+
+ Equilibrium magnetization : 2001.58
+ Equilibrium enregy : -7987.088
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.25, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:1832, E:-7464
+    Iterations:1000, M:1532, E:-7268
+    Iterations:1500, M:1636, E:-7344
+    Iterations:2000, M:1938, E:-7380
+    Iterations:2500, M:2052, E:-7608
+    Iterations:3000, M:1698, E:-7392
+    Iterations:3500, M:1974, E:-7628
+    Iterations:4000, M:1874, E:-7420
+    Iterations:4500, M:1946, E:-7436
+    Iterations:5000, M:1844, E:-7408
+
+Simulation completed.
+
+ Equilibrium magnetization : 2001.2
+ Equilibrium enregy : -7555.672
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.30, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:1866, E:-7336
+    Iterations:1000, M:1564, E:-7252
+    Iterations:1500, M:1648, E:-7208
+    Iterations:2000, M:808, E:-6876
+    Iterations:2500, M:1062, E:-6952
+    Iterations:3000, M:1582, E:-7212
+    Iterations:3500, M:1646, E:-7212
+    Iterations:4000, M:1568, E:-7040
+    Iterations:4500, M:1714, E:-7288
+    Iterations:5000, M:1630, E:-7196
+
+Simulation completed.
+
+ Equilibrium magnetization : 1670.232
+ Equilibrium enregy : -7178.92
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.35, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:1276, E:-6768
+    Iterations:1000, M:1262, E:-6760
+    Iterations:1500, M:1084, E:-6772
+    Iterations:2000, M:1798, E:-7040
+    Iterations:2500, M:1602, E:-6900
+    Iterations:3000, M:1060, E:-6720
+    Iterations:3500, M:1070, E:-6864
+    Iterations:4000, M:338, E:-6708
+    Iterations:4500, M:868, E:-6544
+    Iterations:5000, M:1800, E:-7040
+
+Simulation completed.
+
+ Equilibrium magnetization : 1335.54
+ Equilibrium enregy : -6823.856
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.40, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:958, E:-6484
+    Iterations:1000, M:922, E:-6696
+    Iterations:1500, M:1052, E:-6624
+    Iterations:2000, M:1092, E:-6732
+    Iterations:2500, M:372, E:-6344
+    Iterations:3000, M:488, E:-6520
+    Iterations:3500, M:502, E:-6556
+    Iterations:4000, M:70, E:-6444
+    Iterations:4500, M:164, E:-6588
+    Iterations:5000, M:400, E:-6700
+
+Simulation completed.
+
+ Equilibrium magnetization : 285.972
+ Equilibrium enregy : -6519.208
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.45, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:864, E:-5888
+    Iterations:1000, M:214, E:-6100
+    Iterations:1500, M:-306, E:-5912
+    Iterations:2000, M:266, E:-6004
+    Iterations:2500, M:-270, E:-5840
+    Iterations:3000, M:528, E:-6092
+    Iterations:3500, M:408, E:-5988
+    Iterations:4000, M:426, E:-6012
+    Iterations:4500, M:478, E:-6116
+    Iterations:5000, M:758, E:-6140
+
+Simulation completed.
+
+ Equilibrium magnetization : 436.904
+ Equilibrium enregy : -6179.72
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.50, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:760, E:-5712
+    Iterations:1000, M:-306, E:-5664
+    Iterations:1500, M:-78, E:-5860
+    Iterations:2000, M:-302, E:-5644
+    Iterations:2500, M:-144, E:-5908
+    Iterations:3000, M:-664, E:-5488
+    Iterations:3500, M:-250, E:-5872
+    Iterations:4000, M:-688, E:-5700
+    Iterations:4500, M:382, E:-5676
+    Iterations:5000, M:420, E:-5680
+
+Simulation completed.
+
+ Equilibrium magnetization : 378.192
+ Equilibrium enregy : -5703.848
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.55, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:38, E:-5436
+    Iterations:1000, M:32, E:-5328
+    Iterations:1500, M:306, E:-5360
+    Iterations:2000, M:472, E:-5464
+    Iterations:2500, M:-102, E:-5344
+    Iterations:3000, M:232, E:-5424
+    Iterations:3500, M:42, E:-5380
+    Iterations:4000, M:-182, E:-5388
+    Iterations:4500, M:-22, E:-5316
+    Iterations:5000, M:652, E:-5424
+
+Simulation completed.
+
+ Equilibrium magnetization : 123.836
+ Equilibrium enregy : -5419.328
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.60, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:328, E:-5392
+    Iterations:1000, M:216, E:-5272
+    Iterations:1500, M:-142, E:-4964
+    Iterations:2000, M:-92, E:-5284
+    Iterations:2500, M:-380, E:-5220
+    Iterations:3000, M:-94, E:-5352
+    Iterations:3500, M:22, E:-5160
+    Iterations:4000, M:-356, E:-5296
+    Iterations:4500, M:334, E:-5284
+    Iterations:5000, M:-50, E:-5156
+
+Simulation completed.
+
+ Equilibrium magnetization : 65.424
+ Equilibrium enregy : -5266.976
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.65, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:146, E:-4956
+    Iterations:1000, M:166, E:-4992
+    Iterations:1500, M:-36, E:-4984
+    Iterations:2000, M:94, E:-4948
+    Iterations:2500, M:-514, E:-4968
+    Iterations:3000, M:-316, E:-5056
+    Iterations:3500, M:386, E:-5260
+    Iterations:4000, M:148, E:-4908
+    Iterations:4500, M:48, E:-5084
+    Iterations:5000, M:80, E:-4904
+
+Simulation completed.
+
+ Equilibrium magnetization : -5.788
+ Equilibrium enregy : -4964.696
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.70, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-2, E:-4900
+    Iterations:1000, M:380, E:-4900
+    Iterations:1500, M:-74, E:-4892
+    Iterations:2000, M:-92, E:-5056
+    Iterations:2500, M:114, E:-4944
+    Iterations:3000, M:-230, E:-4860
+    Iterations:3500, M:48, E:-4880
+    Iterations:4000, M:32, E:-4772
+    Iterations:4500, M:-120, E:-4776
+    Iterations:5000, M:-356, E:-4956
+
+Simulation completed.
+
+ Equilibrium magnetization : -114.324
+ Equilibrium enregy : -4861.256
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.75, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:12, E:-4916
+    Iterations:1000, M:-356, E:-5020
+    Iterations:1500, M:-302, E:-4876
+    Iterations:2000, M:-158, E:-5056
+    Iterations:2500, M:166, E:-4992
+    Iterations:3000, M:-200, E:-4932
+    Iterations:3500, M:-14, E:-4788
+    Iterations:4000, M:158, E:-4816
+    Iterations:4500, M:-388, E:-4908
+    Iterations:5000, M:90, E:-4888
+
+Simulation completed.
+
+ Equilibrium magnetization : -61.488
+ Equilibrium enregy : -4836.584
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.80, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-310, E:-4692
+    Iterations:1000, M:266, E:-4520
+    Iterations:1500, M:-108, E:-4596
+    Iterations:2000, M:254, E:-4668
+    Iterations:2500, M:420, E:-4648
+    Iterations:3000, M:212, E:-4620
+    Iterations:3500, M:-70, E:-4688
+    Iterations:4000, M:-128, E:-4580
+    Iterations:4500, M:10, E:-4592
+    Iterations:5000, M:54, E:-4684
+
+Simulation completed.
+
+ Equilibrium magnetization : -18.032
+ Equilibrium enregy : -4642.168
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.85, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-2, E:-4556
+    Iterations:1000, M:354, E:-4476
+    Iterations:1500, M:-86, E:-4656
+    Iterations:2000, M:0, E:-4620
+    Iterations:2500, M:-98, E:-4560
+    Iterations:3000, M:-210, E:-4452
+    Iterations:3500, M:86, E:-4516
+    Iterations:4000, M:-296, E:-4276
+    Iterations:4500, M:420, E:-4416
+    Iterations:5000, M:204, E:-4476
+
+Simulation completed.
+
+ Equilibrium magnetization : 206.328
+ Equilibrium enregy : -4532.552
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.90, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:24, E:-4248
+    Iterations:1000, M:50, E:-4352
+    Iterations:1500, M:216, E:-4408
+    Iterations:2000, M:-52, E:-4464
+    Iterations:2500, M:66, E:-4332
+    Iterations:3000, M:192, E:-4308
+    Iterations:3500, M:130, E:-4364
+    Iterations:4000, M:-44, E:-4412
+    Iterations:4500, M:-8, E:-4228
+    Iterations:5000, M:-426, E:-4204
+
+Simulation completed.
+
+ Equilibrium magnetization : -15.656
+ Equilibrium enregy : -4321.752
+
+
+INPUT PARAMETER
+(N=50, J=1, T=2.95, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-338, E:-4172
+    Iterations:1000, M:190, E:-4196
+    Iterations:1500, M:-118, E:-4100
+    Iterations:2000, M:60, E:-4024
+    Iterations:2500, M:-96, E:-4224
+    Iterations:3000, M:64, E:-4148
+    Iterations:3500, M:4, E:-4160
+    Iterations:4000, M:-38, E:-4176
+    Iterations:4500, M:2, E:-3976
+    Iterations:5000, M:-90, E:-4096
+
+Simulation completed.
+
+ Equilibrium magnetization : -33.592
+ Equilibrium enregy : -4147.672
+
+
+INPUT PARAMETER
+(N=50, J=1, T=3.00, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:316, E:-3972
+    Iterations:1000, M:250, E:-4140
+    Iterations:1500, M:216, E:-4304
+    Iterations:2000, M:-240, E:-4220
+    Iterations:2500, M:-52, E:-4124
+    Iterations:3000, M:70, E:-3948
+    Iterations:3500, M:-254, E:-4140
+    Iterations:4000, M:20, E:-4172
+    Iterations:4500, M:108, E:-4160
+    Iterations:5000, M:-54, E:-4232
+
+Simulation completed.
+
+ Equilibrium magnetization : 1.24
+ Equilibrium enregy : -4097.216
+
+
+INPUT PARAMETER
+(N=50, J=1, T=3.05, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:188, E:-4172
+    Iterations:1000, M:98, E:-4296
+    Iterations:1500, M:-120, E:-4144
+    Iterations:2000, M:204, E:-4116
+    Iterations:2500, M:-142, E:-4128
+    Iterations:3000, M:-18, E:-4192
+    Iterations:3500, M:92, E:-4320
+    Iterations:4000, M:-14, E:-4120
+    Iterations:4500, M:60, E:-4180
+    Iterations:5000, M:20, E:-4176
+
+Simulation completed.
+
+ Equilibrium magnetization : -6.812
+ Equilibrium enregy : -4156.48
+
+
+INPUT PARAMETER
+(N=50, J=1, T=3.10, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-234, E:-3956
+    Iterations:1000, M:-216, E:-3832
+    Iterations:1500, M:190, E:-3892
+    Iterations:2000, M:200, E:-3816
+    Iterations:2500, M:-76, E:-4080
+    Iterations:3000, M:376, E:-3916
+    Iterations:3500, M:60, E:-3900
+    Iterations:4000, M:-4, E:-3960
+    Iterations:4500, M:-22, E:-3972
+    Iterations:5000, M:-16, E:-3912
+
+Simulation completed.
+
+ Equilibrium magnetization : 12.604
+ Equilibrium enregy : -3946.0
+
+
+INPUT PARAMETER
+(N=50, J=1, T=3.15, Iteration=5000)
+
+Simulation started.
+
+    Iterations:500, M:-22, E:-3912
+    Iterations:1000, M:-126, E:-3760
+    Iterations:1500, M:-82, E:-3804
+    Iterations:2000, M:66, E:-3772
+    Iterations:2500, M:26, E:-3780
+    Iterations:3000, M:-66, E:-3820
+    Iterations:3500, M:146, E:-3700
+    Iterations:4000, M:-36, E:-3792
+    Iterations:4500, M:-12, E:-3760
+    Iterations:5000, M:64, E:-3776
+
+Simulation completed.
+
+ Equilibrium magnetization : 7.42
+ Equilibrium enregy : -3810.224
