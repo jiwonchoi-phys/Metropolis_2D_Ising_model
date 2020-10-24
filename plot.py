@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys,os
 
-folder = 'D:/python/Ising/N50_J1'
+folder = 'D:/python/Ising'
 os.chdir(folder)
 
 data_list = []
-slice_num = 3000
+slice_num = 12000
 N = 2500
 
 
@@ -14,7 +14,7 @@ for filename in os.listdir(folder):
     ext=filename.split('.')[-1]
     if ext == 'dat' and filename[0:8] == '2D_Ising':
         data_list.append(filename)
-
+        
 def plot_m(show=False):
     T_list = []
     M_mean = []
@@ -26,6 +26,7 @@ def plot_m(show=False):
         T = float(file.split('_')[4][1:])
         
         M = [m/2500 for m in data[-slice_num:,1]]
+        print(type(data[:,1]))
         avg = np.mean(M)
         std = np.std(M)
         
@@ -106,7 +107,9 @@ def plot_chi(show=False):
         
     plt.savefig('Magnetic_susceptibility.png', dpi=350)
 
-plot_c()
+plot_m()
+#plot_chi()
+#plot_c()
 
 
 '''
