@@ -2,17 +2,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys,os
 
-folder = 'D:/python/Ising'
+folder = '/mnt/d/python/Ising'
 os.chdir(folder)
 
 data_list = []
-slice_num = 12000
-N = 2500
+slice_num = 10000
+N = 1000
 
 
 for filename in os.listdir(folder):
     ext=filename.split('.')[-1]
-    if ext == 'dat' and filename[0:8] == '2D_Ising':
+    if ext == 'dat' and filename[0:8] == '3D_Ising':
         data_list.append(filename)
         
 def plot_m(show=False):
@@ -25,8 +25,7 @@ def plot_m(show=False):
         data = np.loadtxt(file)
         T = float(file.split('_')[4][1:])
         
-        M = [m/2500 for m in data[-slice_num:,1]]
-        print(type(data[:,1]))
+        M = [m/N for m in data[-slice_num:,1]]
         avg = np.mean(M)
         std = np.std(M)
         
@@ -87,6 +86,7 @@ def plot_chi(show=False):
         T = float(file.split('_')[4][1:])
         
         M = data[-slice_num:,1]
+        M = [m/N for m in M]
         M_pow = np.power(M,2)
         avg = np.mean(M)
         avg_pow = np.mean(M_pow)
@@ -107,10 +107,46 @@ def plot_chi(show=False):
         
     plt.savefig('Magnetic_susceptibility.png', dpi=350)
 
-plot_m()
-#plot_chi()
-#plot_c()
+def comparison():
+    N = 2500
+    file1 = 'eq_boundary_25.dat'
+    file2 = 'eq_boundary_50.dat'
+    
+    data1 = np.loadtxt(file1)
+    data2 = np.loadtxt(file2)
+    
+    T = np.arange(1.5,3.0,0.1)
+    
+    M1 = data1[:,0]
+    M2 = data2[:,1]
+    M1= [m/N for m in M1]
+    M2 = [m/N for m in M2]
+    
+    E1 = data1[:,1]
+    E2 = data2[:,3]
+    E1 = [e/N for e in E1]
+    E2 = [e/N for e in E2]
+    
+    ax1 = plt.subplot(2,1,1)
+    ax2 = plt.subplot(2,1,2)
+    
+    ax1.plot(T,M1,label='no boundary',lw=0.3)
+    ax1.set_ylabel('$<m>$')
+    ax1.legend(loc="upper right")
+    
+    ax2.plot(T,E1,label='with boundary'.format(T),lw=0.3)
+    ax2.set_xlabel("steps")
+    ax2.set_ylabel("$<E>$")
+    ax2.legend(loc="upper right")
+    
+    plt.tight_layout()
+    plt.show()
+    plt.savefig("bd_and_nobd.png",dpi=350)
 
+#plot_m()
+plot_chi()
+#plot_c()
+#comparison()
 
 '''
 data = np.loadtxt('magnetization.dat')
