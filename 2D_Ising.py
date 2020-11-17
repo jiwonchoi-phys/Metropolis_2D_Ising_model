@@ -189,7 +189,7 @@ if __name__ == "__main__":
         data.append([T[i],M[i],M_2[i],E[i]])
     
     plt.scatter(T,M)
-    np.savetxt('equilibrium_data.dat',data)
+    np.savetxt('Ising.dat',data)
       
     
     
