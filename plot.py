@@ -2,18 +2,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys,os
 
-folder = '/mnt/d/python/Ising'
+folder = '/home/jiwon/Metropolis_2D_Ising_model'
 os.chdir(folder)
 
 data_list = []
 slice_num = 10000
-N = 1000
+N = 75*75
 
 
 for filename in os.listdir(folder):
     ext=filename.split('.')[-1]
-    if ext == 'dat' and filename[0:8] == '3D_Ising':
+    if ext == 'dat' and filename[0:8] == '2D_Ising':
         data_list.append(filename)
+
+print(data_list)
         
 def plot_m(show=False):
     T_list = []
@@ -144,8 +146,8 @@ def comparison():
     plt.savefig("bd_and_nobd.png",dpi=350)
 
 #plot_m()
-plot_chi()
-#plot_c()
+#plot_chi()
+plot_c()
 #comparison()
 
 '''

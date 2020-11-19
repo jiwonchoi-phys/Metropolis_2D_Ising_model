@@ -151,7 +151,7 @@ if __name__ == "__main__":
     grid_f = model.return_grid()
 '''
 if __name__ == "__main__":
-    T = np.arange(1.5,3.0,0.1)
+    T = np.arange(2.05,3.0,0.05)
     
     iteration = 15000 
     M = []
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     out_grid = None
     
     for i,t in enumerate(T):
-        model = Ising2D(50,1,t,iteration)
+        model = Ising2D(75,1,t,iteration)
         
         if i == 0:
             model.grid = np.random.choice([1,1],size=[model.N,model.N])
