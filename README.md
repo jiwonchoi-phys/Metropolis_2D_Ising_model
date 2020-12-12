@@ -1,5 +1,5 @@
 # Metropolis_2D_Ising_model
-Implementation of 2-D Ising model with Metropolis algorithm
+Implementation of 2D Ising model with Metropolis algorithm
 
 Author : jiwon Choi   
 Language : Python   

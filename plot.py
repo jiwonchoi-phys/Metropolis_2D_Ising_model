@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys,os
 
-folder = '/home/jiwon/Metropolis_2D_Ising_model'
+folder = '/home/jiwon/Metropolis_2D_Ising_model/2D_N75'
 os.chdir(folder)
 
 data_list = []
@@ -80,7 +80,7 @@ def plot_c(show=False):
 
 def plot_chi(show=False):
     T_list=[]
-    M_list=[]
+    chi_list=[]
     
     for file in data_list:
         
@@ -93,13 +93,13 @@ def plot_chi(show=False):
         avg = np.mean(M)
         avg_pow = np.mean(M_pow)
         
-        M = (avg_pow-np.power(avg,2))*N/T
+        chi = (avg_pow-np.power(avg,2))*N/T
         
         
         T_list.append(T)
-        M_list.append(M)
+        chi_list.append(chi)
 
-    plt.scatter(T_list,M_list,color='black',marker='+')
+    plt.scatter(T_list,chi_list,color='black',marker='+')
     plt.title("$N$={}, $J=1$, Magnetic Susceptibility".format(N))
     plt.xlabel("T")
     plt.ylabel("$\chi$")
@@ -146,8 +146,8 @@ def comparison():
     plt.savefig("bd_and_nobd.png",dpi=350)
 
 #plot_m()
-#plot_chi()
-plot_c()
+plot_chi()
+#plot_c()
 #comparison()
 
 '''
