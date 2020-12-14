@@ -2,7 +2,7 @@ import numpy as np
 import sys, os
 
 cwd = os.getcwd()
-folder = cwd+'/'+'2D_N10'
+folder = cwd+'/'+'2D_N64'
 
 os.chdir(folder)
 

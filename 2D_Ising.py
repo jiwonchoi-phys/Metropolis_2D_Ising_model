@@ -151,44 +151,44 @@ if __name__ == "__main__":
     grid_f = model.return_grid()
 '''
 if __name__ == "__main__":
-    T = np.arange(1.50,2.95,0.05)
-    iteration = 15000 
-    M = []
-    M_2=[]
-    E = []
-    data = []
-    out_grid = None
+    T = np.arange(1.8,2.6,0.02)
+    iteration = 20000 
+    n_list = [8,16,32,64]
+
+    for n in n_list:
+        M = []
+        M_2=[]
+        E = []
+        data = []
+        out_grid = None
     
-    for i,t in enumerate(T):
-        model = Ising2D(10,1,t,iteration)
+        for i,t in enumerate(T):
+            model = Ising2D(n,1,t,iteration)
         
-        if i == 0:
-            model.grid = np.random.choice([1,1],size=[model.N,model.N])
-        else:
-            model.grid = out_grid
+            if i == 0:
+                model.grid = np.random.choice([1,1],size=[model.N,model.N])
+            else:
+                model.grid = out_grid
             
         
-        model.run(log=1000)
-        model.savedata()
+            model.run(log=1000)
+            model.savedata()
         
-        out_grid = model.grid
+            out_grid = model.grid
         
-        M_avg = np.average(model.M_list[-10000:])
-        M2_avg = np.average(np.power(model.M_list[-10000:],2))
-        E_avg = np.average(model.E_list[-10000:])
-        M.append(M_avg)
-        M_2.append(M2_avg)
-        E.append(E_avg)
+            M_avg = np.average(model.M_list[-10000:])
+            M2_avg = np.average(np.power(model.M_list[-10000:],2))
+            E_avg = np.average(model.E_list[-10000:])
+            M.append(M_avg)
+            M_2.append(M2_avg)
+            E.append(E_avg)
         
         
-        print("\n Equilibrium magnetization : {}".format(M_avg))
-        print(" Equilibrium enregy : {}".format(E_avg))
+            print("\n Equilibrium magnetization : {}".format(M_avg))
+            print(" Equilibrium enregy : {}".format(E_avg))
         
-    for i in range(len(T)):
-        data.append([T[i],M[i],M_2[i],E[i]])
-    
-    plt.scatter(T,M)
-    np.savetxt('Ising.dat',data)
-      
+        for i in range(len(T)):
+            data.append([T[i],M[i],M_2[i],E[i]])
+
     
     

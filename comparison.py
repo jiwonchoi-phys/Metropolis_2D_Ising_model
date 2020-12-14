@@ -26,7 +26,7 @@ print('folder: ', folder_list)
 print('file: ', file_list)
 
 
-N = [5,10,25,50,75]
+N = [8,16,32,64]
 c = []
 chi=[]
 
